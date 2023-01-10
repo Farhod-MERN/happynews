@@ -1,0 +1,133 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+  width: 100%;
+}
+body{
+  width: 100%;
+  background: url("https://w0.peakpx.com/wallpaper/800/919/HD-wallpaper-vector-gray-world-map-isolated-on-white-background-world-map-flat-earth-template-for-web-site-pattern-anual-report-inphographics-4296173-vector-art-at-vecteezy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.app{
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+.navbar-header{
+  width: 100% !important;
+  background-color: #D8D8D8;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+ 
+}
+.header-img{
+  height: 60px;
+  margin: 0 0 2px;
+  user-select: none;
+}
+.addForm{
+  position: sticky;
+  top: 100px;
+  z-index: 5;
+}
+.content{
+  display: grid;
+  grid-template-columns:700px 500px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 30px;
+  position: relative;
+}
+.content__page{
+  padding-left: 40px;
+}
+.card{
+  background :rgba(255,255,255, 0.5);
+}
+.card-body
+{
+  background-color: transparent !important;
+}
+form{
+  background :rgba(255, 255, 255, 0.5) !important;
+
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.news-img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.btn-delete{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.blog-header-logo{
+  color: rgb(255, 255, 0);
+  text-shadow: 2px 2px 8px #FF0000;
+}
+li{
+  list-style: none;
+ }
+/*  
+@media (max-width: 415px) {
+  body{
+    font-size: 1rem !important;
+  }
+  .content{
+    display: grid;
+    grid-template-columns:100% 0px;
+    padding-top: 5px;
+    margin: 0 5px;
+  }
+  .content__page{
+   display: none;
+  }
+  .blog-center{
+    width: 100%;
+  }
+  .card-body
+{
+  padding:5px;
+}
+  .header-img{
+    height:40px;
+    margin: 5px auto;
+  }
+  .news-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  svg.mx-3{
+    display: none;
+  }
+  a.btn.btn-sm{
+    display: none;
+  }
+  .display-none{
+    display: none;
+  }
+  ul{
+    width: 100%;
+    padding: 0 !important;
+  }
+ 
+} */ 

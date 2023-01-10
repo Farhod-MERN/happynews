@@ -1,0 +1,50 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "name": "Argentina won World Cup again",
+      "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration",
+      "category": "sport"
+    },
+    {
+      "id": 3,
+      "name": "Ronaldo joined new Team called Al Nassr",
+      "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration",
+      "category": "sport"
+    },
+    {
+      "id": "1fecadb1-c1fb-4bb7-a42a-45687a0e6235",
+      "name": "Indian Human Calculator ",
+      "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration. There are many variations of passages ",
+      "category": "hot"
+    },
+    {
+      "id": "65ff1ebd-f814-4693-8c38-197d70a02647",
+      "name": "Farhod news USA Farhod American ❤️😁😔",
+      "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration",
+      "category": "world"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "className": "btn-outline-dark",
+      "label": "All"
+    },
+    {
+      "name": "hot",
+      "className": "btn-danger",
+      "label": "Hot News"
+    },
+    {
+      "name": "world",
+      "className": "btn-success",
+      "label": "World News"
+    },
+    {
+      "name": "sport",
+      "className": "btn-info",
+      "label": "Sport News"
+    }
+  ]
+}
